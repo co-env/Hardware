@@ -61,7 +61,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -87,6 +87,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LUQNLJNE
+
+[Document4]
+DocumentPath=coenv_PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DLQIQPCS
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for coenv\Design Rule Check - coenv_PCB.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -1065,10 +1086,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=coenv_SCHLIB.SchLib
+ComponentDesignItemID0=Microphone
+ComponentSymbolReference0=Microphone
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1082,6 +1109,46 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Category
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=ComponentLink1Description
+ParameterUpdate3=1
+ParameterName4=ComponentLink1URL
+ParameterUpdate4=1
+ParameterName5=Description
+ParameterUpdate5=1
+ParameterName6=Evaluation Kit
+ParameterUpdate6=1
+ParameterName7=Library Reference
+ParameterUpdate7=1
+ParameterName8=Manufacturer
+ParameterUpdate8=1
+ParameterName9=Manufacturer Part Number
+ParameterUpdate9=1
+ParameterName10=Pricing 1
+ParameterUpdate10=1
+ParameterName11=REACH SVHC
+ParameterUpdate11=1
+ParameterName12=RoHS
+ParameterUpdate12=1
+ParameterName13=Stock 1
+ParameterUpdate13=1
+ParameterName14=Supplier 1
+ParameterUpdate14=1
+ParameterName15=Supplier Part Number 1
+ParameterUpdate15=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=microphone module - front
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=microphone module- up
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
