@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [coenv.PrjPcb]
+   Generated File[coenv_PCB.TXT]
+   Generated File[coenv_PCB.LDP]
+   Generated File[coenv_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:24:53 On 02/11/2020
